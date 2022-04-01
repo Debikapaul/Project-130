@@ -43,7 +43,7 @@ function draw(){
       circle(leftWristX,leftWristY,20);
       song2.stop();
 
-      if(song2_status== false){
+      if(song1_status== false){
         song1.play();
         document.getElementById("song_name").innerHTML= "Param Sundari" + " song is playing";
       }
@@ -53,7 +53,7 @@ function draw(){
     circle(rightWristX,rightWristY,20);
     song2.stop();
 
-    if(song1_status== false){
+    if(song2_status== false){
       song2.play();
       document.getElementById("song_name").innerHTML= "Dil ha chotta sa chotti si assha" + " song is playing";
     }
