@@ -45,7 +45,7 @@ function draw(){
 
       if(song1_status == false){ 
         song1.play();
-        document.getElementById("song").innerHTML = "Playing - Param Sundari Song"
+        document.getElementById("song_name").innerHTML = "Playing - Param Sundari Song";
     }
   }
 
@@ -55,7 +55,7 @@ function draw(){
 
    if(song2_status == false){ 
       song2.play();
-      document.getElementById("song").innerHTML = "Playing - Dil ha chotta sa chotti si assha Song"
+      document.getElementById("song_name").innerHTML = "Playing - Dil ha chotta sa chotti si assha Song";
     }
   }
 }    
